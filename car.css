@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightsalmon;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: red;
+    color: blanchedalmond;
+    padding: 10px;
+    text-align: center;
+}
+
+#h1-header {
+    font-size: 24px;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.link-cabecalho {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.link-cabecalho:hover {
+    color: yellow;
+}
+.link-cabecalho:hover {
+    color: yellow;
+}
+#rodape {
+    background-color: red;
+    text-align: center;
+    padding-top: 5px;
+}
+.carrinho {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    text-align: center;
+}
+.carrinho h2 {
+    font-family: Arial;
+    color: red;
+}
+.itens-carrinho {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item {
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+.item h3 {
+    font-family: Arial;
+    color: red;
+}
+.botao-remover {
+    padding: 5px 10px;
+    background-color: red;
+    color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-remover:hover {
+    background-color: darkred;
+}
+.total {
+    font-family: Arial;
+    font-weight: bold;
+    color: red;
+}
+.botao-finalizar {
+    padding: 10px;
+    background-color: red;
+    color: blanchedalmond;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-finalizar:hover {
+    background-color: darkred;
+}
