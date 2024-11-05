@@ -60,7 +60,9 @@ body {
 }
 
 .categoria-link {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     color: blanchedalmond;
     font-size: 18px;
